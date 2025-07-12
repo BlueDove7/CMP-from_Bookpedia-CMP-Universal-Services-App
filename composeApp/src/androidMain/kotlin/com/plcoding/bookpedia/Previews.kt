@@ -19,7 +19,7 @@ private fun BookSearchBarPreview() {
             .background(Color.White)
     ) {
         BookSearchBar(
-            searchQuery = "Kotlin",
+            searchQuery = "",
             onSearchQueryChange = {},
             onSearchIcon = {},
             modifier = Modifier.fillMaxWidth(),
