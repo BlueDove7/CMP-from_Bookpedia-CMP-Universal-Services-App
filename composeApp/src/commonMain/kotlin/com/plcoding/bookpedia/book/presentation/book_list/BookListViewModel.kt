@@ -15,7 +15,6 @@ class BookListViewModel : ViewModel() {
             is BookListAction.OnSearchQueryChange -> {
                 _state.update { it.copy(searchQuery = action.query) }
             }
-
             is BookListAction.OnTabSelected -> {
                 _state.update { it.copy(selectedTabIndex = action.index) }
             }
