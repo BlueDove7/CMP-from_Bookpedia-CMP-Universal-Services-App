@@ -15,8 +15,8 @@ import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.plcoding.bookpedia.book.domain.Book
+import com.plcoding.bookpedia.book.presentation.book_list.components.BookSearchBar
 import com.plcoding.bookpedia.core.presentation.DarkBlue
-import io.ktor.client.plugins.logging.LoggingConfig
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
